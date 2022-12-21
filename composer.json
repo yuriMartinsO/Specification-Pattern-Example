@@ -1,0 +1,27 @@
+{
+    "name": "yurimartinso/specification-pattern-example",
+    "description": "Exemplo de caso de uso do padrão especificação.",
+    "authors": [
+        {
+            "name": "Yuri Martins",
+            "email": "yurimartins3705@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpecificationExample\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SpecificationExample\\": "tests/"
+        }
+    }
+}
